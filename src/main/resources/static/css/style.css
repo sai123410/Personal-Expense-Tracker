@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f6f8;
+    font-size: 22px;
+}
+
+h2 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* --- Table Styles --- */
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: white;
+    font-size: 22px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+th {
+    background-color: #eee;
+}
+
+/* --- Form & Input Styles --- */
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for alignment */
+    font-size: 18px;
+}
+
+/* --- Button Styles --- */
+button, .button-link {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.cancel-link {
+    color: #dc3545;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Vibrant Blue */
+    color: white !important;
+    text-decoration: none !important;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.2s; /* Optional: makes it feel more like a button */
+}
+
+/* It's a good idea to add a hover state so the user knows it's clickable */
+.button-link:hover {
+    background-color: #0056b3; /* A slightly darker blue for the hover effect */
+    color: white !important;
+}
